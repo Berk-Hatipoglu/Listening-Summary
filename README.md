@@ -95,6 +95,7 @@ airflow scheduler
 3. The steps taken and their success statuses are displayed on the left. If you receive an error at any step, you can click on the step that received the error (the red box next to it) and examine the error from the Logs tab.
 ![](screenshots/Picture4.png)
 4. Finally, when we check, the results of the analysis are saved in the /output directory with a .txt extension.
+
 Notes
 ---------------
 * If you don’t want to see the example DAGs, set the `load_examples` parameter in the `airflow.cfg` file to `False`. Then, the scheduler and web server services are closed and started again.
